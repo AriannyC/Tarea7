@@ -3,9 +3,9 @@
     public class Categoria
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public string Nombre{ get; set; }
 
-        //navigation
-        public List<Producto> Productos { get; set; }
+        //navigation Property
+        public ICollection<Producto> ProductosNC { get; set; }
     }
 }

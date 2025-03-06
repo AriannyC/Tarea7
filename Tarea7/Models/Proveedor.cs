@@ -6,6 +6,6 @@
         public string Nombre { get; set; }
         public string Contacto { get; set; }
         //navigation
-        public List<Producto> Productos { get; set; }
+        public ICollection<Producto> ProductosN { get; set; }
     }
 }
