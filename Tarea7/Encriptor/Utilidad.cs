@@ -64,7 +64,7 @@ namespace Tarea7.Encriptor
 
             var jwrconfi = new JwtSecurityToken(
                 claims: userclaims,
-                expires: DateTime.UtcNow.AddMinutes(1),
+                expires: DateTime.UtcNow.AddMinutes(30),
                  signingCredentials: credential
 
                              );
